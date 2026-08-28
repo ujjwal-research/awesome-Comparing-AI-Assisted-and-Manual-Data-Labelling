@@ -25,13 +25,13 @@ With the emergence of Large Language Models (LLMs) and automated Human-in-the-Lo
 ## AI-Assisted Research Paper
 - **Title:** *Comparing AI-Assisted and Manual Data Labelling Accuracy on Scientific Datasets*
 - **Description:** A Review and Comparative Analysis of Annotation Quality in Scientific and Biomedical Machine Learning Pipelines
-- **File Link:** [View Generated Paper](paper/Comparing_AI-Assisted_and_Manual_Data_Labelling_Accuracy.pdf)
+- **File Link:** [View Generated Paper](paper/AI-Assisted-Research-Paper.pdf)
 
 ---
 
 ## Citation Integrity Audit
 - **Summary:** 
-- **File Link:** [View Citation Audit]()
+- **File Link:** [View Citation Audit](citation-audit/Citation_Integrity_Audit.pdf)
 
 ---
 
