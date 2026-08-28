@@ -6,12 +6,6 @@ A curated collection of verified research papers, datasets, benchmark tools, ope
 - [AI-Assisted Research Paper](#ai-assisted-research-paper)
 - [Citation Integrity Audit](#citation-integrity-audit)
 - [Curated Research Papers](#curated-research-papers)
-  - [Survey and Review Papers](#survey-and-review-papers)
-  - [Foundational Papers](#foundational-papers)
-  - [Recent Research Papers](#recent-research-papers)
-  - [Methods / Algorithms](#methods--algorithms)
-  - [Applications](#applications)
-  - [Evaluation Methods / Benchmarks](#evaluation-methods--benchmarks)
 - [Datasets](#datasets)
 - [Tools and Libraries](#tools-and-libraries)
 - [GitHub Implementations](#github-implementations)
@@ -132,6 +126,20 @@ With the emergence of Large Language Models (LLMs) and automated Human-in-the-Lo
 ---
 
 ## Datasets
+1. **AbdomenAtlas 1.0 (Multi-Organ CT Segmentation)**
+   - **Source:** [GitHub - MrGiovanni/AbdomenAtlas](https://github.com/MrGiovanni/AbdomenAtlas) | [Hugging Face Repository](https://huggingface.co/datasets/AbdomenAtlas/AbdomenAtlas1.0MiniBeta)
+   - **Description:** A large-scale medical dataset featuring 5,195 abdominal CT scans (over 3.2 million slices) with voxel-level multi-organ annotations constructed through automated AI pre-labeling and human expert quality assurance.
+   - **Application:** Used for benchmarking AI-assisted medical segmentation, active learning pipelines, and label-error estimation models (such as Quality Sentinel).
+
+2. **DeepFigures Benchmark (Scientific Document Parsing)**
+   - **Source:** [GitHub - allenai/deepfigures-open](https://github.com/allenai/deepfigures-open)
+   - **Description:** A large-scale scholarly corpus containing over 5.5 million distantly-supervised figure, table, and caption bounding box annotations induced automatically from open-access arXiv and PubMed PDF articles.
+   - **Application:** Used for evaluating automated distant supervision accuracy against manual layout labeling in scientific document analysis.
+
+3. **LabelErrors Benchmark Datasets (ML Test-Set Label Noise)**
+   - **Source:** [GitHub - cleanlab/label-errors](https://github.com/cleanlab/label-errors) | [LabelErrors.com](https://labelerrors.com/)
+   - **Description:** A curated verification benchmark tracking pervasive label errors and annotator noise across 10 standard ML test sets (including ImageNet, CIFAR, QuickDraw, and Amazon Reviews) validated via crowdsourced consensus.
+   - **Application:** Evaluates algorithmic label-checking performance, confident learning formulations, and downstream model sensitivity to noisy human annotations.
 
 ---
 
