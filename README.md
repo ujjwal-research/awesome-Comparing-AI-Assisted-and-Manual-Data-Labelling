@@ -53,6 +53,11 @@ With the emergence of Large Language Models (LLMs) and automated Human-in-the-Lo
   [Paper / DOI](https://doi.org/10.1186/s44342-024-00011-6)
   Reviews and measures the extraction and classification accuracy of vision-language models on complex biomedical review figures.
 
+- **Human-in-the-loop machine learning: a state of the art**
+  Mosqueira-Rey, E., Alonso-Ríos, D., Moret-Bonillo, V., Alonso-Betanzos, A., Bolón-Canedo, V., & Polaina, B., 2023, Artificial Intelligence Review
+  [Paper / DOI](https://doi.org/10.1007/s10462-022-10246-w)
+  Provides a comprehensive review of interactive human-in-the-loop paradigms, expert label adjudication, and algorithmic pre-labeling workflows.
+
 ### Foundational Papers
 
 - **Confident learning: Estimating uncertainty in dataset labels**
@@ -65,10 +70,20 @@ With the emergence of Large Language Models (LLMs) and automated Human-in-the-Lo
   [Paper / DOI](https://doi.org/10.1073/pnas.2305016120)
   Seminal empirical benchmark demonstrating zero-shot LLMs exceeding crowdsourced worker accuracy and intercoder agreement at lower costs.
 
+- **Cheap and fast—but is it good? Evaluating non-expert annotations for natural language tasks**
+  Snow, R., O'Connor, B., Jurafsky, D., & Ng, A. Y., 2008, Proceedings of the 2008 Conference on Empirical Methods in Natural Language Processing (EMNLP)
+  [Paper / DOI](https://doi.org/10.3115/1613715.1613751)
+  Foundational benchmark comparing expert ground truth against non-expert crowdsourced annotator agreement and error distributions.
+
+- **The FAIR Guiding Principles for scientific data management and stewardship**
+  Wilkinson, M. D., et al., 2016, Scientific Data
+  [Paper / DOI](https://doi.org/10.1038/sdata.2016.18)
+  Defines foundational data integrity, findability, and provenance requirements for scientific training sets and curated benchmarks.
+
 ### Recent Research Papers
 
 - **Large language models can extract metadata for annotation of human neuroimaging publications**
-  Turner, M. D., Appaji, A., Ar Rakib, N., Golnari, P., Rajasekar, A. K., K V, A. R., Sahoo, S. S., Wang, Y., Wang, L., & Turner, J. A., 2025, Frontiers in Neuroinformatics[cite: 2, 4]
+  Turner, M. D., Appaji, A., Ar Rakib, N., Golnari, P., Rajasekar, A. K., K V, A. R., Sahoo, S. S., Wang, Y., Wang, L., & Turner, J. A., 2025, Frontiers in Neuroinformatics
   [Paper / DOI](https://doi.org/10.3389/fninf.2025.1609077)
   Demonstrates high agreement (0.91–0.97) between GPT-4o zero-shot metadata extraction and trained human annotators on neuroimaging literature.
 
@@ -82,6 +97,11 @@ With the emergence of Large Language Models (LLMs) and automated Human-in-the-Lo
   [Paper / DOI](https://doi.org/10.2196/68097)
   Critically evaluates LLM extraction accuracy and error types against full-text biomedical literature.
 
+- **Benchmarking large language models from open and closed source models to apply data annotation for free-text criteria in healthcare**
+  Nemati, A., et al., 2025, Future Internet
+  [Paper / DOI](https://doi.org/10.3390/fi17040138)
+  Analyzes multi-model annotation consistency, hallucination rates, and confidence scoring on unstructured clinical datasets.
+
 ### Methods / Algorithms
 
 - **Extracting scientific figures with distantly supervised neural networks**
@@ -93,6 +113,11 @@ With the emergence of Large Language Models (LLMs) and automated Human-in-the-Lo
   Chen, Y., Zhou, Z., & Yuille, A., 2024, arXiv
   [Paper / DOI](https://arxiv.org/abs/2406.00327)
   Presents a regression model trained on over 4 million image-label pairs to automatically flag and estimate segmentation label errors across 142 anatomical structures.
+
+- **ActiveLLM: Large Language Model-Based Active Learning for Textual Few-Shot Scenarios**
+  Bayer, M., Lutz, J., & Reuter, C., 2026, Transactions of the Association for Computational Linguistics (TACL)
+  [Paper / DOI](https://doi.org/10.1162/tacl.a.63)
+  Introduces an active learning framework utilizing LLMs to select informative samples for annotation without requiring initial supervised data.
 
 ### Applications
 
@@ -113,7 +138,7 @@ With the emergence of Large Language Models (LLMs) and automated Human-in-the-Lo
   [Paper / DOI](https://arxiv.org/abs/2103.14749)
   Quantifies baseline error rates (averaging at least 3.3%) in canonical manually annotated benchmark test sets and demonstrates their impact on model rankings.
 
-- **Validation of large language models in systematic review screening: Opportunities, challenges, and methodological considerations**
+- **Large language models in systematic review screening: Opportunities, challenges, and methodological considerations**
   Delgado-Chaves, F. M., et al., 2025, Information
   [Paper / DOI](https://doi.org/10.3390/info16050378)
   Evaluates 18 LLMs across clinical domains, benchmarking classification accuracy variability (40% to 92%) across prompting methods.
