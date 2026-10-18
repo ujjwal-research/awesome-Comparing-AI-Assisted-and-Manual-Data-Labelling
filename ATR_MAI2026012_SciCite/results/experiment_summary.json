@@ -3,7 +3,7 @@
   "primary_metric": "accuracy",
   "secondary_metric": "macro-F1",
   "test_baseline_accuracy": 0.8230231307154384,
-  "test_baseline_macro_f1": 0.8050480482758932,
+  "test_baseline_macro_f1": 0.803991,
   "test_uncertainty_accuracy": 0.8509951586874663,
   "test_random_mean_accuracy": 0.8323561054330285,
   "test_uncertainty_errors_corrected": 52,
