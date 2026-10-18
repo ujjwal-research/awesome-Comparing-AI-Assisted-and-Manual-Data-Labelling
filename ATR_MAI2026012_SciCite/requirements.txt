@@ -1,0 +1,8 @@
+# Dependencies used in the saved Colab run (from results/environment.json)
+# Python 3.13.16 in the recorded environment
+numpy==2.1.3
+pandas==2.2.3
+scikit-learn==1.6.1
+# Download and notebook dependencies; versions were not recorded in environment.json
+requests
+matplotlib
